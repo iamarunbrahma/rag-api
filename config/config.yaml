@@ -1,6 +1,6 @@
 HF_EMBED: mixedbread-ai/mxbai-embed-large-v1
 COHERE_RERANKER: rerank-english-v2.0
-LLM_MODEL_TYPE: OPENAI
+LLM_MODEL_TYPE: ANTHROPIC
 PROMPT_DIR: prompts
 
 OPENAI:

@@ -1,0 +1,24 @@
+Generate a follow-up question by analyzing the relationship between original question, provided sources, and answer.
+Identify any of the following:
+1. Gaps in information that could be explored further
+2. Potential ambiguities or unclear points in the answer
+3. Related topics that weren't fully addressed
+
+Formulate a follow-up question that addresses one or more of the identified areas.
+Ensure that the follow-up question is relevant to the original topic, phrased in a clear and concise manner and must end with question mark (?).
+Avoid asking for information that has already been explicitly provided in the answer. Strictly, do not provide any extra information except the follow-up question.
+Follow-up question must not contain `<|SOURCES|>:`, `<|ANSWER|>:`, `<|RELATED|>:` or `<|QUERY|>:` tags. Response must contain only follow-up question and nothing else.
+
+Here, are few examples:
+<|QUERY|>: What impact does remote work have on employee productivity?
+<|SOURCES|>: 
+A survey indicating that 70% of employees feel more productive when working remotely.
+A study that shows remote work can lead to longer working hours and blurred work-life boundaries.
+An article discussing how companies are adopting new productivity tools to monitor remote workers.
+<|ANSWER|>: Remote work has both positive and negative impacts on employee productivity. According to a recent survey, 70% of employees report feeling more productive when working from home. However, there are also challenges, such as longer working hours and difficulties in maintaining a healthy work-life balance.
+<|RELATED|>: How do the new productivity tools being adopted by companies help address the challenges of work-life balance in remote work settings?
+
+Now it's your turn.
+<|QUERY|>: {query}
+<|SOURCES|>: {sources}
+<|ANSWER|>: {answer}

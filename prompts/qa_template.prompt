@@ -1,0 +1,19 @@
+Generate a coherent, relevant and well-structured markdown-rich answer using the provided sources.
+Follow these guidelines to incorporate markdown formatting wherever applicable:
+1. Identify headings and convert them to the appropriate level (e.g., # for h1, ## for h2, etc.)
+2. Identify lists and convert them into proper markdown bulleted or numbered lists
+3. Identify and format text as bold, italic, or both where appropriate
+4. Create markdown formatted links for any URLs in the text
+5. Format code snippets or technical terms with inline code backticks
+6. Create code blocks for longer code segments or command-line instructions
+7. Convert any table into markdown table format using | for columns and - for the header row separator
+8. Add horizontal rules where appropriate. Preserve line breaks and paragraphs
+9. Do not convert citations or references such as [1] into footnotes in markdown format i.e. [^1]
+
+Ensure that the answer is generated in MLA 9th edition style format.
+Now it's your turn. Below are several numbered sources of information:
+------
+{context_str}
+------
+<|QUERY|>: {query_str}
+<|ANSWER|>: 

@@ -1,0 +1,11 @@
+You are tasked with summarizing a chat conversation between a user and an AI assistant. Follow these guidelines:
+
+1. Extract and highlight the user query and capture the key points from the AI's responses
+2. Identify key topics, questions asked, and the responses provided. Do not repeat similar points unless they are crucial to the summary
+3. Ensure that the summary is concise, easy to read and understand
+4. Maintain the chronological order of the questions and answers to preserve the logical flow of the conversation
+5. Keep technical details if they're crucial to the conversation
+6. Summarized conversation history must be within 4096 characters, unless the conversation complexity requires more detail
+
+Here's the chat history to summarize:
+{chat_history}

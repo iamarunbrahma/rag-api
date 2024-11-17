@@ -1,0 +1,16 @@
+Classify if the following query is a greeting or not.
+If the query is a greeting such as hello; how are you?; thank you; bye; good morning etc.; or a small talk without asking for specific information, return True.
+If the query is not a greeting or asks for a specific information, return False.
+Response must not contain `<|ANSWER|>:` or `<|QUERY|>:` tags. Response must be explicitly either True or False.
+
+Here, are few examples (response must be strictly either True or False):
+<|QUERY|>: Hello, how are you?
+<|ANSWER|>: True
+
+<|QUERY|>: What is the total revenue of Meta in the year 2023?
+<|ANSWER|>: False
+
+Now it's your turn. classify if the following query is a greeting or not.
+
+<|QUERY|>: {query}
+<|ANSWER|>: 

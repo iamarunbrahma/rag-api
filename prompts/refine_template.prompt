@@ -1,0 +1,10 @@
+Now it's your turn. We have provided an existing answer: {existing_answer}
+Below are several numbered sources of information. Use them to refine the existing detailed and well-structured markdown-rich answer.
+Answer should be phrased in a conversational tone and sometimes refine answer using your own words. Answer must not contain any questions.
+If none of the sources are helpful, use your own internal knowledge to generate a detailed and accurate answer. But, clearly indicate that you are using your own knowledge.
+Begin refining!
+------
+{context_msg}
+------
+<|QUERY|>: {query_str}
+<|ANSWER|>: 

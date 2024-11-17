@@ -1,0 +1,23 @@
+Please help me rephrase or reconstruct this query while following these rules:
+
+1. Keep all technical terms, domain-specific vocabulary, acronyms, ambiguous words and phrases exactly as they appear
+2. Preserve the original intent and meaning of the query
+3. Fix grammatical errors and improve the sentence structure
+4. Add necessary context or connecting words to make the query coherent and consistent
+5. If multiple interpretations are possible, present the most likely version
+
+Rephrased query must not contain `<|QUERY|>:` or `<|REPHRASED QUERY|>:` tags.
+Strictly, return only the rephrased query without explanation or additional text.
+
+Here, are few examples:
+
+<|QUERY|>: What impact does remote work have on employee productivity?
+<|REPHRASED QUERY|>: How does remote work affect employee productivity?
+
+<|QUERY|>: What is the total revenue of Meta in the year 2023?
+<|REPHRASED QUERY|>: What was Meta's total revenue in 2023?
+
+Here, is the query to rephrase (strictly, return only the rephrased query without explanation or additional text.):
+
+<|QUERY|>: {query}
+<|REPHRASED QUERY|>: 

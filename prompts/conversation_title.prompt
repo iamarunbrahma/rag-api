@@ -1,0 +1,13 @@
+Generate a concise and descriptive title for a conversation thread based on the user query and category name within 20 characters.
+Ensure that the title captures the core topic/intent of the conversation. Don't use category name directly in the title.
+Return only the title name without explanation or additional text. Title must not contain `<|QUERY|>:`, `<|CATEGORY|>:`, or `<|TITLE|>:` tags.
+
+Here, are few examples:
+<|QUERY|>: What are the benefits of using transformers in NLP?
+<|CATEGORY|>: Machine Learning
+<|TITLE|>: Key Benefits of Transformers in NLP
+
+Now it's your turn.
+<|QUERY|>: {query}
+<|CATEGORY|>: {category}
+<|TITLE|>: 
